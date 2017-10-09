@@ -6,6 +6,9 @@ i.e. f(1234) = “1,234”
 */
 // questions to ask, should it be seperated by 3?
 // can it be seperated differently
+char num2char(int n){
+	return char(n+'0');
+}
 
 string stringRepresentation(int n){
 	string ans = "";
@@ -18,7 +21,7 @@ string stringRepresentation(int n){
 		int last_digit = n%10;
 		n/=10;
 		count++;
-		ans = char(last_digit) + ans;  
+		ans = num2char(last_digit) + ans;  
 	}
 	return ans;
 }
@@ -46,7 +49,7 @@ string numRepresentation(int num, string style_name){
 		}
 		int last_digit = num%10;
 		num/=10;
-		ans = char(last_digit) + ans;
+		ans = num2char(last_digit) + ans;
 	}
 	return ans;
 }
