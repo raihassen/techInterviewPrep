@@ -1,0 +1,10 @@
+1.cpp A company's organizational structure is represented as 
+1: 2, 3, 4 
+In the above employees with id 2, 3 and 4 report to 1 
+Assume the following hierarchy. 
+1: 2, 3, 4 
+3: 5, 6, 7 
+5: 8, 9, 10 
+Given an employee Id, return all the employees reporting to him directly or indirectly
+2.cpp Implement a function that given an integer number num, it returns the a string representation of the number, comma separated.
+i.e. f(1234) = “1,234”
