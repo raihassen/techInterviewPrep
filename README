@@ -20,3 +20,7 @@ You are given a string consisting of brackets and other characters. You have to 
 "[aa { ] cc } ]" -> false
 
 */
+4.cpp Run length encoding of string. See below for example:
+
+aaaaabbbccd => a5b3c2d1
+xyz => x1y1z1
